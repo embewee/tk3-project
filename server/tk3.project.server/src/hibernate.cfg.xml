@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+  <property name="hibernate.connection.url">jdbc:hsqldb:hsql://localhost/database</property>
+  <property name="hibernate.connection.username">sa</property>
+  <property name="hibernate.connection.password"/>
+  <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Note"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.University"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.CourseType"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Course"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Grade"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Credit"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.CourseClassification"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.FieldOfChoice"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Module"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.ModuleClassification"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.StudyProgram"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Visibility"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Status"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Country"/>
+  <mapping class="de.tu.darmstadt.informatik.ausland.model.database.Region"/>
+ </session-factory>
+</hibernate-configuration>

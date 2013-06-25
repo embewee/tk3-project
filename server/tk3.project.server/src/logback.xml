@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender class="ch.qos.logback.core.ConsoleAppender" name="CONSOLE">
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+		</encoder>
+	</appender> 
+	<appender class="ch.qos.logback.classic.net.SocketAppender" name="SOCKET">
+		<remoteHost>127.0.0.1</remoteHost>
+		<port>4560</port>
+		<reconnectionDelay>1000</reconnectionDelay>
+		<includeCallerData>false</includeCallerData>
+	</appender>
+
+	<root>
+		<level value="warn"/>
+		<appender-ref ref="SOCKET"/>
+	</root>
+</configuration>
