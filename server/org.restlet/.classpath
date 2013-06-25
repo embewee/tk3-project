@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="servlet-api-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.ajp.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.continuation.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.http.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.io.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.server.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.jetty.util.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.ext.jaxb.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.ext.jaxrs.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.ext.jetty.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.ext.slf4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.restlet.ext.xml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
