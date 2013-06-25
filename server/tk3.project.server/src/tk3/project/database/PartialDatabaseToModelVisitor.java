@@ -1,19 +1,5 @@
 package de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor;
 
-import de.tu.darmstadt.informatik.ausland.model.CourseBean;
-import de.tu.darmstadt.informatik.ausland.model.CourseClassificationBean;
-import de.tu.darmstadt.informatik.ausland.model.CourseTypeBean;
-import de.tu.darmstadt.informatik.ausland.model.FieldOfChoiceBean;
-import de.tu.darmstadt.informatik.ausland.model.ModuleBean;
-import de.tu.darmstadt.informatik.ausland.model.ModuleClassificationBean;
-import de.tu.darmstadt.informatik.ausland.model.NoteBean;
-import de.tu.darmstadt.informatik.ausland.model.StudyProgramBean;
-import de.tu.darmstadt.informatik.ausland.model.UniversityBean;
-import de.tu.darmstadt.informatik.ausland.model.VisibilityBean;
-import de.tu.darmstadt.informatik.ausland.model.database.Course;
-import de.tu.darmstadt.informatik.ausland.model.database.CourseClassification;
-import de.tu.darmstadt.informatik.ausland.model.database.StudyProgram;
-import de.tu.darmstadt.informatik.ausland.model.database.University;
 
 public class PartialDatabaseToModelVisitor extends PlainDatabaseToModelVisitor {
 

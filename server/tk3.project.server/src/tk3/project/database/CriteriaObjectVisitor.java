@@ -1,25 +1,10 @@
 package de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor;
 
 
+import java.beans.Visibility;
+
 import org.hibernate.Criteria;
 import org.hibernate.criterion.Restrictions;
-
-import de.tu.darmstadt.informatik.ausland.model.QueryBean;
-import de.tu.darmstadt.informatik.ausland.model.database.Conversion;
-import de.tu.darmstadt.informatik.ausland.model.database.Country;
-import de.tu.darmstadt.informatik.ausland.model.database.Course;
-import de.tu.darmstadt.informatik.ausland.model.database.CourseClassification;
-import de.tu.darmstadt.informatik.ausland.model.database.CourseType;
-import de.tu.darmstadt.informatik.ausland.model.database.FieldOfChoice;
-import de.tu.darmstadt.informatik.ausland.model.database.Module;
-import de.tu.darmstadt.informatik.ausland.model.database.ModuleClassification;
-import de.tu.darmstadt.informatik.ausland.model.database.Note;
-import de.tu.darmstadt.informatik.ausland.model.database.Region;
-import de.tu.darmstadt.informatik.ausland.model.database.Status;
-import de.tu.darmstadt.informatik.ausland.model.database.StudyProgram;
-import de.tu.darmstadt.informatik.ausland.model.database.University;
-import de.tu.darmstadt.informatik.ausland.model.database.Visibility;
-import de.tu.darmstadt.informatik.ausland.util.parameter.QueryParameter;
 
 public class CriteriaObjectVisitor extends ObjectHibernateVisitor {
 

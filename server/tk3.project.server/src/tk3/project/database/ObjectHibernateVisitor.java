@@ -1,6 +1,5 @@
 package de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor;
 
-import de.tu.darmstadt.informatik.ausland.model.database.ObjectVisitorInterface;
 
 public abstract class ObjectHibernateVisitor implements ObjectVisitorInterface {
 

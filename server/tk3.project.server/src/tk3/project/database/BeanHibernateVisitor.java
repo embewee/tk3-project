@@ -2,8 +2,6 @@ package de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor;
 
 import org.hibernate.Session;
 
-import de.tu.darmstadt.informatik.ausland.model.BeanVisitorInterface;
-
 public abstract class BeanHibernateVisitor implements BeanVisitorInterface {
 
 	/**

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: webservice
+Bundle-SymbolicName: tk3.project.webservice
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.hibernate;bundle-version="4.1.7",
+ org.hsqldb;bundle-version="2.2.9",
+ ch.qos.logback;bundle-version="1.0.7"

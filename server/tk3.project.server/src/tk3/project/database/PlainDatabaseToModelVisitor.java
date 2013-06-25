@@ -1,40 +1,11 @@
 package de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor;
 
+import java.beans.Visibility;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import de.tu.darmstadt.informatik.ausland.model.ConversionBean;
-import de.tu.darmstadt.informatik.ausland.model.CountryBean;
-import de.tu.darmstadt.informatik.ausland.model.CourseBean;
-import de.tu.darmstadt.informatik.ausland.model.CourseClassificationBean;
-import de.tu.darmstadt.informatik.ausland.model.CourseTypeBean;
-import de.tu.darmstadt.informatik.ausland.model.FieldOfChoiceBean;
-import de.tu.darmstadt.informatik.ausland.model.ModuleBean;
-import de.tu.darmstadt.informatik.ausland.model.ModuleClassificationBean;
-import de.tu.darmstadt.informatik.ausland.model.NoteBean;
-import de.tu.darmstadt.informatik.ausland.model.RegionBean;
-import de.tu.darmstadt.informatik.ausland.model.StatusBean;
-import de.tu.darmstadt.informatik.ausland.model.StudyProgramBean;
-import de.tu.darmstadt.informatik.ausland.model.UniversityBean;
-import de.tu.darmstadt.informatik.ausland.model.VisibilityBean;
-import de.tu.darmstadt.informatik.ausland.model.database.Conversion;
-import de.tu.darmstadt.informatik.ausland.model.database.Country;
-import de.tu.darmstadt.informatik.ausland.model.database.Course;
-import de.tu.darmstadt.informatik.ausland.model.database.CourseClassification;
-import de.tu.darmstadt.informatik.ausland.model.database.CourseType;
-import de.tu.darmstadt.informatik.ausland.model.database.FieldOfChoice;
-import de.tu.darmstadt.informatik.ausland.model.database.Module;
-import de.tu.darmstadt.informatik.ausland.model.database.ModuleClassification;
-import de.tu.darmstadt.informatik.ausland.model.database.Note;
-import de.tu.darmstadt.informatik.ausland.model.database.ObjectVisitable;
-import de.tu.darmstadt.informatik.ausland.model.database.Region;
-import de.tu.darmstadt.informatik.ausland.model.database.Status;
-import de.tu.darmstadt.informatik.ausland.model.database.StudyProgram;
-import de.tu.darmstadt.informatik.ausland.model.database.University;
-import de.tu.darmstadt.informatik.ausland.model.database.Visibility;
 
 public class PlainDatabaseToModelVisitor extends ObjectHibernateVisitor {
 

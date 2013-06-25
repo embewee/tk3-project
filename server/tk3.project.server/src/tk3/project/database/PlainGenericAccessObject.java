@@ -7,14 +7,9 @@ import java.util.TreeSet;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
+import org.hibernate.metamodel.relational.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor.PlainDatabaseToModelVisitor;
-import de.tu.darmstadt.informatik.ausland.model.IdentifierBean;
-import de.tu.darmstadt.informatik.ausland.model.QueryBean;
-import de.tu.darmstadt.informatik.ausland.model.database.Identifier;
-import de.tu.darmstadt.informatik.ausland.model.database.ObjectVisitable;
 
 public class PlainGenericAccessObject<D extends Identifier<S>, M extends IdentifierBean<S>, S extends Serializable> extends GenericAccessObject<D, M, S> {
 
@@ -35,6 +30,7 @@ public class PlainGenericAccessObject<D extends Identifier<S>, M extends Identif
 	 * 
 	 * @return found object or null
 	 */
+	@Override
 	public M findByID(S objectID) {
 		Session session = createSession();
 		try {

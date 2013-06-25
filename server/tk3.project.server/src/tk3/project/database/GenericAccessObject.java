@@ -1,4 +1,4 @@
-package de.tu.darmstadt.informatik.ausland.database.hibernate.dao;
+package tk3.project.database;
 
 import java.io.Serializable;
 import java.util.SortedSet;
@@ -8,18 +8,11 @@ import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.metamodel.relational.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import de.tu.darmstadt.informatik.ausland.database.hibernate.HibernateFactory;
-import de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor.CriteriaObjectVisitor;
-import de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor.ObjectHibernateVisitor;
-import de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor.PartialDatabaseToModelVisitor;
-import de.tu.darmstadt.informatik.ausland.database.hibernate.dao.visitor.PartialModelToDatabaseVisitor;
-import de.tu.darmstadt.informatik.ausland.model.IdentifierBean;
-import de.tu.darmstadt.informatik.ausland.model.QueryBean;
-import de.tu.darmstadt.informatik.ausland.model.database.Identifier;
-import de.tu.darmstadt.informatik.ausland.model.database.ObjectVisitable;
+import tk3.project.database.hibernate.HibernateFactory;
 
 /**
  * Abstract class to access database classes
